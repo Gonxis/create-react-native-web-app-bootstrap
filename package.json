@@ -1,0 +1,39 @@
+{
+  "name": "create-react-native-web-app-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "^22.0.0",
+    "react-dom": "^16.2.0",
+    "react-native-scripts": "^1.11.1",
+    "react-native-web": "^0.5.3",
+    "react-scripts": "^1.1.1",
+    "react-test-renderer": "^16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "web:start": "react-scripts start",
+    "web:eject": "react-scripts eject",
+    "web:build": "react-scripts build",
+    "native:start": "react-native-scripts start",
+    "native:eject": "react-native-scripts eject",
+    "native:android": "react-native-scripts android",
+    "native:ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "collectCoverage": true
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "expect"
+    ]
+  },
+  "dependencies": {
+    "expo": "^25.0.0",
+    "react": "^16.2.0",
+    "react-native": "^0.52.0"
+  }
+}
